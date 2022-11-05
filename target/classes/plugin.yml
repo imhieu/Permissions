@@ -1,0 +1,5 @@
+name: Permissions
+version: '1.0-SNAPSHOT'
+main: alpha.rip.permissions.Permissions
+authors: [ hieu ]
+website: www.alpha.rip

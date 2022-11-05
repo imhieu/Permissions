@@ -1,0 +1,5 @@
+name: Permissions
+version: '${project.version}'
+main: alpha.rip.permissions.Permissions
+authors: [ hieu ]
+website: www.alpha.rip
