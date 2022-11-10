@@ -64,6 +64,7 @@ public class Profile {
         if (document == null){
             Rank defaultRank = RanksHandler.getRankByName("Default");
             setRank(defaultRank.getUuid());
+            recalculatePlayerPermissions();
             save();
         } else {
             existsInDatabase = true;
@@ -79,6 +80,8 @@ public class Profile {
             }
 
             totalPermissions.addAll(profileRank.getPermissions());
+
+            recalculatePlayerPermissions();
         }
     }
 
